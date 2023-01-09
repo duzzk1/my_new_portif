@@ -1,0 +1,205 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap");
+
+/* BODY */
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(227, 240, 238);
+}
+
+h1 {
+  margin: none;
+}
+
+.logocor {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(0, 195, 255);
+  border: 1px solid;
+  border-image: linear-gradient(to right, rgb(0, 238, 255), rgb(0, 102, 255));
+  border-image-slice: 1;
+  margin-right: 5px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.nav-content img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.nav-content ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 60px;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: rgb(0, 106, 192);
+}
+
+.item-list a {
+  font-size: 14px;
+}
+
+.menu {
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(0, 102, 255);
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  display: none;
+}
+
+.menu:hover {
+  background-color: rgb(2, 120, 255);
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+/* INICIO */
+
+#inicio {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(227, 240, 238);
+  background-image: url(./img/wave.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#inicio::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.inicio__nome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio__nome h1 {
+  color: rgb(2, 120, 255);
+  margin: 0;
+}
+
+.inicio__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inicio__logo img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* SOBRE */
+
+#sobre {
+  margin: 0 auto;
+  max-width: 60%;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre__foto {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre__desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sobre__foto img {
+  border-radius: 50%;
+  width: 15%;
+}
+
+.sobre__desc p {
+  max-width: 50%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sobre__desc p:hover {
+  background-color: rgb(248, 191, 85);
+}
+
+.sobre__desc p:hover > a {
+  color: white;
+}
+
+.p1 a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.sobre__desc h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgb(0, 102, 255);
+}
+
+/* PROJETOS */
+
+#projetos {
+  width: 100%;
+  height: 100vh;
+}
+
+/* BOTÃO SOBE TOPO */
+
+#Btn_topo {
+  display: flex;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+#Btn_topo a {
+  text-decoration: none;
+  color: white;
+}
