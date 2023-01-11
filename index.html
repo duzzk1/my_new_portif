@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Document</title>
+    <title>Eduardo Santos - Portifolio</title>
   </head>
   <body>
     <header id="header">
       <nav>
         <div class="nav-content">
-          <a href=""
+          <a href="#inicio"
             ><span><span class="logocor">e/s</span>Eduardo Santos</span></a
           >
           <ul class="lista">
             <li class="item-list"><a href="#inicio">Inicio</a></li>
             <li class="item-list"><a href="#sobre">Sobre</a></li>
-            <li class="item-list"><a href="#">Projetos</a></li>
+            <li class="item-list"><a href="#projetos">Projetos</a></li>
             <li class="item-list"><a href="#">Contatos</a></li>
           </ul>
           <button class="menu">menu</button>
@@ -29,7 +29,7 @@
     <main>
       <div id="inicio">
         <div class="inicio__nome">
-          <h1>Olá, eu sou o Eduardo</h1>
+          <h1 class="nome">Olá, eu sou o Eduardo</h1>
           <p>Estou me tornando um DESENVOLVEDOR WEB</p>
         </div>
         <div class="inicio__logo"><img src="img/duzzk.png" alt="" /></div>
@@ -42,17 +42,50 @@
           <p class="p1">
             <a href="#"
               >Tenho 22 anos, experiente em análise de Sistemas e estudando
-              Programação Web por paixão</a
-            >
+              Programação Web por paixão!
+            </a>
           </p>
         </div>
       </div>
 
-      <div id="projetos"></div>
+      <div id="projetos">
+        <h1>PROJETOS</h1>
+        <h5>Selecione ao lado</h5>
+        <div class="projetos_container">
+          <div class="projetos_lateral">
+            <img src="img/agenda.png" alt="" />
+            <img src="img/animateicon.png" alt="" />
+            <img src="img/calcicon.png" alt="" />
+            <img src="img/todoicon.png" alt="" />
+          </div>
+          <div class="projetos_central">
+            <iframe
+              class="portfolio"
+              src="https://duzzk1.github.io/portfolio-eduardo-luis/"
+              frameborder="0"
+            ></iframe>
+            <iframe
+              class="videos"
+              src="https://duzzk1.github.io/Roblox_Clone/"
+              frameborder="0"
+            ></iframe>
+            <iframe
+              class="calc"
+              src="https://duzzk1.github.io/projeto_darkmode_js/"
+              frameborder="0"
+            ></iframe>
+            <iframe
+              class="projeto_todo"
+              src="https://duzzk1.github.io/Contador_Estudo/"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <class id="Btn_topo"><a href="#header">Sobe</a></class>
+    <class id="Btn_topo"><a href="#inicio">Sobe</a></class>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
